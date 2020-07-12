@@ -1,0 +1,1 @@
+this is my pet project, demonstrate how to use git
