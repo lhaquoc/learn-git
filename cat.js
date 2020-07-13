@@ -6,7 +6,6 @@ function Cat(name) {
 }
 
 Cat.prototype.eat = function(animal) {
-	// body...
 	if(animal instanceof Mouse) {
 		this.stomach.push(animal);
 	} else {
