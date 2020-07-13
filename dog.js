@@ -5,12 +5,10 @@ function Dog(name) {
 }
 
 Dog.prototype.eat = function(cat) {
-	// body...
 	this.stomach.push(cat);
 };
 
 Dog.prototype.sayHello = function() {
-	// body...
 	console.log("Hello! I am a dog, and my name is " + chalk.red(this.name));
 };
 
